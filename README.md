@@ -24,3 +24,19 @@ pip install -r requirements.txt
 mysql -u root -p < database.sql
 4. Run the app:
 python main.py
+
+
+## Sample Usage
+1. Add User  
+   Input: `Navya, navya@example.com`  
+   Output: ✅ User 'Navya' registered.
+
+2. Add Book  
+   Input: `Python Programming, John Doe`  
+   Output: ✅ Book added.
+
+3. Issue Book  
+   Input: `User ID: 1, Book ID: 1`  
+   Output: 📚 Book issued successfully.
+
+
